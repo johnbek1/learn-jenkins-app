@@ -21,4 +21,7 @@ pipeline {
             }
         }
     }
+    stage{
+        echo'Test stage'
+    }
 }
